@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat|Playfair+Display+SC");
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+header {
+  z-index: 3;
+}
+header input[type=search] {
+  border: none;
+  background-color: rgba(63, 63, 63, 0.226);
+  border-radius: 50px;
+}
+header #menu {
+  border: none;
+}
+header #menu .bar {
+  display: block;
+  width: 30px;
+  height: 2px;
+  background-color: #333333;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+main::after {
+  content: "";
+  display: block;
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -3;
+  background-image: url("../images/food002.jpeg");
+  background-position: center;
+  background-size: cover;
+}
+main .heading {
+  font-family: "Playfair Display SC", serif;
+}
+main .c-item {
+  height: 50vh;
+}
+main .c-btn {
+  width: 10%;
+  height: 20%;
+  font-size: 0.8em;
+  top: 75%;
+}
+
+/*# sourceMappingURL=mystyle.css.map */
